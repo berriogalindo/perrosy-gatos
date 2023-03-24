@@ -1,0 +1,51 @@
+#ubicacion{
+	background:#fff;
+	color:black;
+	text-align: center;
+	padding: 50px;
+
+}
+#ubicacion h1{
+	font-size:25px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#ubicacion .contenedor{
+	display: flex;
+	padding: 35px;
+	justify-content: center;
+}
+
+#ubicacion .contenedor iframe{
+	width: 45%;
+	border: 10px solid black;
+
+}
+#ubicacion .contenedor p{
+	padding: 40px;
+	width: 50px;
+	text-align: left;
+}
+
+ footer{
+ 	background: orange;
+ }
+
+ footer .contenedor{
+ 	display: flex;
+ 	flex: wrap;
+ 	justify-content: center;
+ 	padding-bottom: 30px;
+ 	color: white;
+ }
+ 
+ .copy{
+ 	font-size: 20px;
+ 	padding: 20px;
+ }
+ .red-social{
+ 	width: 100px;
+ 	text-align: center;
+ 	font-size: 30px;
+ }
