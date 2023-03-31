@@ -37,7 +37,7 @@ header .contenedor{
  height: 100%;
 }
 #banner .contenedor{
- font-size: 50px;
+ font-size: 33px;
  position: absolute;
 top: 50%;
  left: 10%;
@@ -45,7 +45,7 @@ color:  black;
  transform: translateX(30px)translateY(-95px);
 }
 #banner h2{
-	font-size:26px;
+	font-size:20px;
 }
 #banner a{
 	display: block;
@@ -301,49 +301,66 @@ flex-wrap: wrap;
 
 /*Dispositivo Movil*/
 
-@media(min-width: 429px){
-
+@media(max-width: 767px){
+    header h1{
+        font-size: 25px;
+    }
     .menu{
-        background: rgba(51, 51, 51, .9);
+        background: rgba(10, 10, 10, .9);
         width: 100%;
         height: auto;
     }
-    #banner h2{
-        font-size: 40px;
+    #banner .contenedor{
+        transform: translateX(-5px)translateY(-95px);
     }
     #banner img{
-        height: auto;
-        margin-top: -100px;
+        height: -100;
+        margin-top: 0px;
     }
     #banner a{
-        margin-top: 25px;
+        margin-top: 10px;
     }
+    #banner  p{
+        font-size: 30px;
+    }
+    #servicios .contenedor{
+    display: table-footer-group;
+    justify-content: right;
+    flex: wrap;
+  }
+  #ubicacion .contenedor iframe{
+    width: 100%;
+    border: 10px solid black;
+}
+#ubicacion .contenedor{
+    padding: 19px;
+}
 }
 
-/*Tablts*/
+/*Tablets*/
 
 @media(min-width: 768px){
 
     .menu{
         background: rgba(51, 51, 51, .9);
-        width: 100%;
+        width: 200%;
         height: auto;
     }
     #banner{
-        height: 300px;
+        height: 500px;
         overflow: hidden;
     }
     #banner img{
         height: auto;
-        margin-top: -100px;
+        margin-top: 0px;
     }
     .info-mascota{
-        width: 40%;
+        width: 100%;
     }
     .red-soc{
         width: auto;
-        font-size: 28px;
-        padding: 10px;
+        font-size: 30px;
+        padding: 0px;
     }
     footer .contenedor{
         justify-content: space-between;
@@ -370,7 +387,7 @@ flex-wrap: wrap;
         display: none;
     }
     #banner img{
-        margin-top: -200px;
+        margin-top: 0px;
     }
     .info-mascota{
         width: auto;
